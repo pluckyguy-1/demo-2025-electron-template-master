@@ -6,7 +6,7 @@ function CreateMember() {
 
   const submitHandler = async (e) => {
     e.preventDefault();
-    // Логика для создания нового члена семьи
+  
     navigate("/");
   };
 

@@ -1,6 +1,6 @@
 const { app, BrowserWindow, ipcMain } = require('electron');
 const { join } = require('path');
-const connectDB = require('./db');
+const connectDB = require('../db');
 
 let mainWindow;
 let dbClient;

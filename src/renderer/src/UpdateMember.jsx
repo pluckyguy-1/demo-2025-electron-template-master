@@ -8,7 +8,7 @@ function UpdateMember() {
 
   const submitHandler = async (e) => {
     e.preventDefault();
-    // Логика для обновления данных члена семьи
+    
     navigate("/");
   };
 
